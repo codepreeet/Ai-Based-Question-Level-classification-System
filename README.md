@@ -65,6 +65,3 @@ Special thanks to my faculty guide and the open-source community for scikit-lear
   year = {2025},
   note = {Undergraduate Final Year Project, Haldia Institute of Technology}
 }
-
-## ✅ Short Professional Summary for Resume
-Developed a robust question-level classification system as my final year project, leading a team to achieve high accuracy using pure traditional NLP (TF-IDF + SVM) on a custom dataset of 8500+ unique questions.
