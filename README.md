@@ -1,95 +1,70 @@
-🎓 Final Year Project — AI-Based Question Level Classification System
+# Final Year Project — AI-Based Question Level Classification System
 
-📌 Project Title
+## Project Title
 AI-Based Question Level Classification System Using Traditional NLP (TF-IDF + SVM)
 
-🧑‍🎓 About This Project
-This is my Final Year Major Project for the completion of my undergraduate degree.
-I, Gurpreet Singh, am the Group Leader of this project.
+## About This Project
+This is my final year major project for the completion of my undergraduate degree.
+I, Gurpreet Singh, am the group leader of this project.
 
-Objective:
-Develop an intelligent text classification system that can automatically assign:
-
-✅ Difficulty Level (Easy, Moderate, Hard)
-
-✅ Bloom’s Taxonomy Level (L1–L6)
+**Objective:** Develop an intelligent text classification system that automatically assigns:
+- Difficulty Level (Easy, Moderate, Hard)
+- Bloom’s Taxonomy Level (L1–L6)
 to a large set of educational questions.
 
-✅ Key Highlights
-📚 Dataset:
-8500+ unique questions collected, cleaned, and verified to remove duplicates.
+## Key Highlights
+- **Dataset:** 8500+ unique questions collected, cleaned, and verified for duplicates.
+- **Approach:** Pure traditional NLP — no deep learning.
+- **Vectorization:** TF-IDF encoding.
+- **Classifier:** Support Vector Machine (SVM) for multi-label classification.
+- **Performance:** High accuracy through careful feature engineering.
+- **Tools Used:** Python, scikit-learn, pandas, matplotlib.
 
-🧩 Approach:
-Pure Traditional NLP — no deep learning, only robust classical methods.
+## Project Structure
 
-✏️ Vectorization:
-TF-IDF encoding for each question text.
+| File/Folder | Description |
+| ----------- | ------------ |
+| Final_Year_Project.ipynb | Jupyter Notebook with full code for preprocessing, training, evaluation, and visualization. |
+| data/ | Folder for the cleaned dataset CSVs. |
+| results/ | Plots, confusion matrices, and performance reports. |
 
-🧮 Classifier:
-Support Vector Machine (SVM) for multi-label classification.
+## What the Model Does
+- Reads raw question text
+- Converts text to TF-IDF vectors
+- Trains an SVM classifier
+- Predicts both Difficulty Level and Bloom’s Taxonomy Level
+- Evaluates with accuracy, precision, recall, F1-score
+- Visualizes results with confusion matrices and accuracy plots
 
-📈 Performance:
-High accuracy due to careful feature engineering and dataset curation.
+## How to Run
+1. Clone this repository.
+2. Open Final_Year_Project.ipynb in Google Colab or Jupyter Notebook.
+3. Install required packages:
+   pip install -U scikit-learn pandas matplotlib
+4. Run the notebook step-by-step to:
+   - Load data
+   - Preprocess
+   - Train the SVM
+   - Evaluate and visualize results
 
-🛠️ Tools Used:
-Python, Scikit-learn, Pandas, Matplotlib.
+## Project Leader
+- Name: Gurpreet Singh
+- Institution: Haldia Institute of Technology
+- Role: Group Leader and Developer of this Final Year Major Project
 
-⚙️ Project Structure
-File/Folder	Description
-Final_Year_Project.ipynb	Jupyter Notebook containing full code for preprocessing, training, evaluation, and visualization.
-data/	Folder containing the cleaned dataset CSV files.
-results/	Plots, confusion matrices, and performance reports.
+## License
+This project is open for academic and research use. Please cite appropriately.
 
-📊 What the Model Does
-✅ Reads raw question text
-✅ Converts text to TF-IDF vectors
-✅ Trains an SVM classifier
-✅ Predicts both Difficulty Level and Bloom’s Taxonomy Level for unseen questions
-✅ Evaluates with Accuracy, Precision, Recall, F1-score
-✅ Visualizes results with confusion matrices and accuracy plots
+## Acknowledgements
+Special thanks to my faculty guide and the open-source community for scikit-learn, pandas, and matplotlib.
 
-🚀 How to Run
-1️⃣ Clone this repository
-2️⃣ Open Final_Year_Project.ipynb in Google Colab or Jupyter Notebook
-3️⃣ Install required packages:
-
-bash
-Copy
-Edit
-pip install -U scikit-learn pandas matplotlib
-4️⃣ Run the notebook step-by-step to:
-
-Load data
-
-Preprocess
-
-Train the SVM
-
-Evaluate and visualize results
-
-👨‍🎓 Project Leader
-Name: Gurpreet Singh
-
-Institution: Haldia Institute of Technology
-
-Role: Group Leader and Developer of this Final Year Major Project
-
-📜 License
-This project is open for academic and research use. Please cite appropriately if used.
-
-✨ Acknowledgements
-My respected faculty guide and project mentor
-
-The open-source community for scikit-learn, pandas, and matplotlib
-
-📌 Contact
-For any queries or collaboration ideas, feel free to open an Issue or connect via my GitHub profile.
-
-📎 How to Cite
+## How to Cite
 @project{singh2025finalyear,
   author = {Gurpreet Singh},
   title = {Automated Classification of Question Difficulty and Bloom's Taxonomy Using TF-IDF + SVM},
   year = {2025},
   note = {Undergraduate Final Year Project, Haldia Institute of Technology}
 }
-⭐️ If you find this project useful, please star this repository!
+
+## ✅ Short Professional Summary for Resume
+Developed a robust question-level classification system as my final year project, leading a team to achieve high accuracy using pure traditional NLP (TF-IDF + SVM) on a custom dataset of 8500+ unique questions.
